@@ -11,7 +11,7 @@ import SwiftUI
 struct Fly_ToApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogInView()
         }
     }
 }

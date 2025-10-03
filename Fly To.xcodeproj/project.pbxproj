@@ -27,6 +27,7 @@
 		C89D40CE2E8EA5B70089373E /* Fly To.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fly To.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89D40DB2E8EA5B80089373E /* Fly ToTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fly ToTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89D40E52E8EA5B80089373E /* Fly ToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fly ToUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89D41802E8F73C80089373E /* Fly To.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Fly To.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -89,6 +90,11 @@
 				C89D40DB2E8EA5B80089373E /* Fly ToTests.xctest */,
 				C89D40E52E8EA5B80089373E /* Fly ToUITests.xctest */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89D41812E8F73C80089373E /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -198,6 +204,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C89D40CF2E8EA5B70089373E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C89D41812E8F73C80089373E /* Products */;
+					ProjectRef = C89D41802E8F73C80089373E /* Fly To.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C89D40CD2E8EA5B70089373E /* Fly To */,
